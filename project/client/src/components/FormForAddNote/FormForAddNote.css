@@ -1,0 +1,41 @@
+.custom-form {
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
+    margin: 40px auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-input {
+    border: none;
+    border-bottom: 2px solid #880808;
+    background: transparent;
+    padding: 10px 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+    border-bottom-color: #550000;
+}
+
+.form-button {
+    padding: 10px;
+    background-color: #880808;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #660000;
+}

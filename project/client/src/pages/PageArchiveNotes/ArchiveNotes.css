@@ -1,0 +1,68 @@
+.basket-icon {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    margin-left: 1255px;
+    padding-top: 24px;
+}
+
+.basket-icon:hover {
+    color: #550000;
+}
+
+.deleted-fullscreen {
+    margin-left: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.deleted-heading {
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.deleted-empty {
+    font-size: 18px;
+    color: #888;
+    margin-top: 10px;
+}
+
+.deleted-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+.deleted-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.deleted-text {
+    font-size: 18px;
+    color: #333;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.deleted-date {
+    font-size: 16px;
+    color: #666;
+    font-style: italic;
+    white-space: nowrap;
+}
+
